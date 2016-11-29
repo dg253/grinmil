@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Mon Nov 28, 2016 v1.0.1
+# Mon Nov 28, 2016 v1.0.2
 /css/bootstrap.css
 /css/bootstrap.min.css
 /css/mdb.css
@@ -14,8 +14,3 @@ CACHE MANIFEST
 /js/jquery-2.2.3.js
 /js/mdb.js
 /favicon.ico
-
-NETWORK:
-
-
-FALLBACK:
