@@ -241,11 +241,11 @@
         <!--/.Slides-->
 
         <!--Controls-->
-        <a class="left carousel-control" href="#carousel-example-1" role="button" data-slide="prev">
+        <a class="left carousel-control" href="#grinmil-carousel" role="button" data-slide="prev">
             <span class="icon-prev" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#carousel-example-1" role="button" data-slide="next">
+        <a class="right carousel-control" href="#grinmil-carousel" role="button" data-slide="next">
             <span class="icon-next" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -347,7 +347,6 @@
 
     <!-- SCRIPTS -->
 
-
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 
@@ -359,6 +358,22 @@
 
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script>
+        var hammertime = new Hammer(myElement, myOptions);
+        hammertime.on('pan', function(ev) {
+        	console.log(ev);
+        });
+        
+        $(document).ready(function () {
+            $('#grinmil-carousel').hammer().on('swipeleft', function () {
+                $(this).carousel('next');
+            })
+            $('#grinmil-carousel').hammer().on('swiperight', function () {
+                $(this).carousel('prev');
+            })
+        });
+    </script>
 
 
 </body>
