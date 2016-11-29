@@ -3,3 +3,7 @@
 nav.navbar.navbar-dark.navbar-fixed-top.scrolling-navbar {
   box-shadow: none;
 }
+
+.gray {
+  background-color: #f6f6f6
+}
