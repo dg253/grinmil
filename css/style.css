@@ -25,3 +25,8 @@ nav.navbar.navbar-dark.navbar-fixed-top.scrolling-navbar {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
 
 }
+
+
+.features-small .fa {
+  font-size: 2rem
+}
