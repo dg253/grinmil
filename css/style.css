@@ -4,10 +4,6 @@ nav.navbar.navbar-dark.navbar-fixed-top.scrolling-navbar {
   box-shadow: none;
 }
 
-.gray {
-  background-color: #f6f6f6
-}
-
 .section-heading {
   text-align: center;
 }
@@ -35,6 +31,11 @@ nav.navbar.navbar-dark.navbar-fixed-top.scrolling-navbar {
     padding-left:0;
 }
 
+
+.wrap {
+    width: 100%;
+}
+
 .productlink h1{
   transition-property: font-size, font-weight;
   transition-duration: .55s;
@@ -45,8 +46,4 @@ nav.navbar.navbar-dark.navbar-fixed-top.scrolling-navbar {
   color: whitesmoke;
   font-size: 350%;
   font-weight: 500;
-}
-
-.right-link {
-  margin-right: -50px
 }
