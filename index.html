@@ -254,21 +254,21 @@
     <!--Main-->
     <main class="gray-linear">
 
-      <!--First container -->
-      <div class="fluid-container">
+      <!--First container-->
+      <div class="container">
 
         <!--Section Productos-->
         <section id="productos" class="section p-t-4 p-b-4">
-          <!-- Section title -->
-          <div class="container">
-            <h1 class="section-heading wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; -webkit-animation-delay: 0.2s; animation-name: fadeIn; -webkit-animation-name: fadeIn;">Productos</h1>
-            <!--Section sescription-->
-            <p class="section-description lead wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; -webkit-animation-delay: 0.2s; animation-name: fadeIn; -webkit-animation-name: fadeIn;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
-          </div>
-          <!--product photo links-->
-          <div class="row no-gutter m-b-4">
-            <div class="col-xs-6 hm-black-light">
 
+          <!--Section title-->
+            <h1 class="section-heading wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; -webkit-animation-delay: 0.2s; animation-name: fadeIn; -webkit-animation-name: fadeIn;">Productos</h1>
+            <p class="section-description lead wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; -webkit-animation-delay: 0.2s; animation-name: fadeIn; -webkit-animation-name: fadeIn;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+          <!-- /.Section title -->
+
+          <!--producto foto links-->
+          <div class="row no-gutter m-b-5">
+
+            <div class="col-xs-6 hm-black-light">
               <div class="view hm-zoom hoverable productlink">
                 <a href="#Granola">
                   <img src="img/granola-link.jpg" class="img-fluid wow fadeInUp" alt="Link para ver informacion de nuestra granola.">
@@ -277,8 +277,8 @@
                   </div>
                 </a>
               </div>
-
             </div>
+
             <div class="col-xs-6 hm-black-light">
               <div class="view hm-zoom hoverable productlink">
                 <img src="img/galletas-link.jpg" class="img-fluid wow fadeInUp" alt="Link para ver informacion de nuestra galletas.">
@@ -290,6 +290,8 @@
 
           </div>
           <!--/.product photo links-->
+
+          <!--granola informacion-->
           <div id="Granola" class="container p-t-3">
             <section class="section feature-box">
 
@@ -391,9 +393,24 @@
 
             </section>
           </div>
+          <!--/.granola informacion-->
+
+          <!--granola  precios y fotos-->
+          <div class="row m-b-5">
+
+            <div class="col-xs-12 col-sm-8">
+
+            </div>
+
+            <div class="col-xs-12 col-sm-4">
+
+            </div>
+
+          </div>
+          <!--/.granola  precios y fotos-->
 
         </section>
-        <!--/.Section Productos-->
+        <!-- /.Section Productos-->
 
       </div>
       <!--./First container -->
@@ -491,6 +508,13 @@
 
 
     <!-- SCRIPTS -->
+
+    <script type="text/javascript">
+      // MDB Lightbox Init
+      $(function () {
+        $("#mdb-lightbox-ui").load("js/mdb-lightbox-ui.html");
+      });
+    </script>
 
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>

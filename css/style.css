@@ -46,3 +46,7 @@ nav.navbar.navbar-dark.navbar-fixed-top.scrolling-navbar {
   font-size: 350%;
   font-weight: 500;
 }
+
+.right-link {
+  margin-right: -50px
+}
