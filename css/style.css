@@ -26,7 +26,23 @@ nav.navbar.navbar-dark.navbar-fixed-top.scrolling-navbar {
 
 }
 
-
 .features-small .fa {
   font-size: 2rem
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.productlink h1{
+  transition-property: font-size, font-weight;
+  transition-duration: .55s;
+  transition-timing-function: ease;
+}
+
+.productlink:hover h1{
+  color: whitesmoke;
+  font-size: 350%;
+  font-weight: 500;
 }
