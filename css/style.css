@@ -27,14 +27,14 @@ nav.navbar.navbar-dark.navbar-fixed-top.scrolling-navbar {
 }
 
 .productlink h1{
-  color: #feda6e;
-  transition-property: font-size, font-weight;
+  color: #ffffff;
+  transition-property: font-size, font-weight, color;
   transition-duration: .55s;
   transition-timing-function: ease;
 }
 
 .productlink:hover h1{
-
+  color: #feda6e;
   font-size: 350%;
   font-weight: 500;
 }
