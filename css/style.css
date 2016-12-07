@@ -65,3 +65,14 @@ p {
 .productos-title-bg {
   background-color: #feda6e
 }
+
+
+@media (max-width: 543px) {
+  .section .section-heading {
+    margin-bottom: 2rem;
+  }
+
+  .section .section-description {
+    margin-bottom: 2rem;
+  }
+}
