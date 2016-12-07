@@ -27,20 +27,21 @@ nav.navbar.navbar-dark.navbar-fixed-top.scrolling-navbar {
 }
 
 .productlink h1{
+  color: #feda6e;
   transition-property: font-size, font-weight;
   transition-duration: .55s;
   transition-timing-function: ease;
 }
 
 .productlink:hover h1{
-  color: whitesmoke;
+
   font-size: 350%;
   font-weight: 500;
 }
 
 
 .productMenuHeight {
-  max-height: 400px;
+  max-height: 493px;
 }
 
 .hr {
@@ -59,4 +60,8 @@ nav.navbar.navbar-dark.navbar-fixed-top.scrolling-navbar {
 p {
   color: #757575;
   font-weight: 300;
+}
+
+.productos-title-bg {
+  background-color: #feda6e
 }
