@@ -46,3 +46,17 @@ nav.navbar.navbar-dark.navbar-fixed-top.scrolling-navbar {
 .hr {
   border-bottom: 1px solid #babfc3;
 }
+
+.section img {
+  box-shadow:none;
+}
+
+.nosotros-heading h1 {
+  margin-bottom: 1rem;
+}
+
+
+p {
+  color: #757575;
+  font-weight: 300;
+}
