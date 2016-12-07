@@ -32,18 +32,7 @@ nav.navbar.navbar-dark.navbar-fixed-top.scrolling-navbar {
   transition-duration: .55s;
   transition-timing-function: ease;
 }
-/*
-.productlink:hover h1{
-  color: #feda6e;
-  font-size: 350%;
-  font-weight: 500;
-}
-*/
-.productlink:active h1{
-  color: #feda6e;
-  font-size: 350%;
-  font-weight: 500;
-}
+
 
 
 .productMenuHeight {
@@ -73,12 +62,30 @@ p {
 }
 
 
+
+
 @media (max-width: 543px) {
+  .productlink:active h1{
+    color: #feda6e;
+    font-size: 350%;
+    font-weight: 500;
+  }
+
+
   .section .section-heading {
     margin-bottom: 2rem;
   }
 
   .section .section-description {
     margin-bottom: 2rem;
+  }
+}
+
+
+@media (min-width: 544px) {
+  .productlink:hover h1{
+    color: #feda6e;
+    font-size: 350%;
+    font-weight: 500;
   }
 }
