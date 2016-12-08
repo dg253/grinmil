@@ -100,7 +100,6 @@
             background-size: cover;
         }
 
-*/
         /*Caption*/
 
         .flex-center {
@@ -556,7 +555,7 @@
                       <div class="panel-heading" role="tab" id="headingThree">
                         <h4 class="panel-title">
                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Precio especial a mayoreo 
+                            Precio especial a mayoreo
                           </a>
                         </h4>
                       </div>
@@ -612,6 +611,27 @@
 
         </section>
         <!-- /.Section Productos-->
+
+        <!--Section Locations-->
+        <section id="locations" class="location">
+          <div class="container no-gutter p-t-3 p-b-4">
+
+            <h1 class="section-heading p-t-2 p-b-4">Dónde encontrarnos</h1>
+
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>Monterrey</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                 <div id="map" style="width: 100%; height: 500px; max-height:500px"></div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!-- /.Section Locations-->
 
       </div>
       <!--/.Container -->
@@ -723,7 +743,6 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
 
     <script type="text/javascript">
-
       wow = new WOW({
           boxClass: 'wow', // default
           animateClass: 'animated', // default
@@ -733,6 +752,43 @@
       })
       wow.init();
     </script>
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <script type="text/javascript">
+        var locations = [
+          ['Monterrey', 25.645840, -100.380895, 4],
+          ['San Pedro de Pinta', 25.656210, -100.370977, 4],
+          ['Carrots', 25.658403, -100.362913, 4]
+        ];
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: new google.maps.LatLng(25.645840, -100.380895,1),
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+
+        });
+
+        var infowindow = new google.maps.InfoWindow();
+
+        var marker, i;
+
+        for (i = 0; i < locations.length; i++) {
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            icon: 'http://grinmil.com/grinmil/img/grinmil-map-marker.png'
+            map: map
+          });
+
+          google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
+              infowindow.setContent(locations[i][0]);
+              infowindow.open(map, marker);
+            }
+          })(marker, i));
+        }
+      </script>
+
 
 </body>
 
