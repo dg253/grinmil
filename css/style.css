@@ -94,3 +94,9 @@ p {
 .location {
   background-color: #ECECEA;
 }
+
+
+#map {
+        height: 400px;
+        width: 100%;
+}
