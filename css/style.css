@@ -203,3 +203,34 @@ p {
   background-color: #ffffff;
   background-image: url(https://www.transparenttextures.com/patterns/green-dust-and-scratches.png);
 }
+
+.galeria-bg {
+  color: white;
+  background-color: #6d6e6d;
+  background-image: url(https://www.transparenttextures.com/patterns/black-linen.png);
+}
+
+.md-form label.active {
+  font-size: .8rem;
+  -webkit-transform: translateY(-60%);
+  -moz-transform: translateY(-60%);
+  -ms-transform: translateY(-60%);
+  -o-transform: translateY(-60%);
+  transform: translateY(-60%)
+}
+
+
+.md-form .prefix.active {
+  color: rgba(162, 27, 0, 0.95);
+}
+
+
+input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]), input[type=number]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]), input[type=search-md]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]), input[type=tel]:focus:not([readonly]),
+input[type=text]:focus:not([readonly]), input[type=time]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]), textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #a21917;
+    box-shadow: 0 1px 0 0 #a21917;
+}
