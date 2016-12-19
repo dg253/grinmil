@@ -246,3 +246,18 @@ input[type=url]:focus:not([readonly]), textarea.md-textarea:focus:not([readonly]
     background-color: transparent;
     background-image: none;
 }
+
+.carousel-arrows {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+}
+
+.carousel-next {
+  right: 50%;
+}
+
+
+.carousel-prev {
+  left: 50%;
+}
