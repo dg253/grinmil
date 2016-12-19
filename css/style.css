@@ -149,6 +149,7 @@ p {
 
 
 @media (max-width: 543px) {
+
   .productlink:active h1{
     color: #feda6e;
     font-size: 350%;
@@ -260,4 +261,23 @@ input[type=url]:focus:not([readonly]), textarea.md-textarea:focus:not([readonly]
 
 .carousel-prev {
   left: 50%;
+}
+
+
+.contacto-divider {
+  border-right-style: solid;
+  border-right-width: .5px;
+  border-right-color: #a5a5a5;
+}
+
+
+@media (max-width: 992px) {
+  .contacto-divider {
+    border: none;
+  }
+}
+
+
+.contact-icons {
+  margin-top: .2em
 }
