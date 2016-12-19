@@ -281,3 +281,8 @@ input[type=url]:focus:not([readonly]), textarea.md-textarea:focus:not([readonly]
 .contact-icons {
   margin-top: .2em
 }
+
+
+.tabs  .indicator  {
+  background-color: #feda6e;
+}

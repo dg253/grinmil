@@ -63,10 +63,10 @@
 
                 <ul class="nav navbar-nav nav-flex-icons">
                         <li class="nav-item">
-                            <a href="http://www.facebook.com/grinmil" target="_blank" class="nav-link waves-effect waves-light"><i class="fa fa-facebook"></i></a>
+                            <a href="http://www.facebook.com/grinmil" target="_blank" class="nav-link waves-effect waves-light"><i class="fa fa-facebook fa-1x"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="http://instagram.com/grinmil" target="_blank" class="nav-link waves-effect waves-light"><i class="fa fa-instagram"></i></a>
+                            <a href="http://instagram.com/grinmil" target="_blank" class="nav-link waves-effect waves-light"><i class="fa fa-instagram fa-1x"></i></a>
                         </li>
                     </ul>
             </div>
@@ -370,8 +370,8 @@
                 <div class="row p-t-2 p-b-3">
                   <div class="col s12 col-sm-12  flex-center">
                     <ul class="tabs">
-                      <li class="tab col s6" style="width:50%"><a class="active" href="#tradicional-tab">Granola Tradicional</a></li>
-                      <li class="tab col s6" style="width:50%"><a href="#vegana-tab">Granola Vegana</a></li>
+                      <li class="tab col s6 t-indicator" style="width:50%"><a class="active" href="#tradicional-tab">Granola Tradicional</a></li>
+                      <li class="tab col s6 v-indicator" style="width:50%"><a href="#vegana-tab">Granola Vegana</a></li>
                     </ul>
                   </div>
                   <div id="tradicional-tab" class="col s12 p-t-4">
@@ -439,86 +439,76 @@
 
                                             <!--Tradicional info-->
                                             <div class="col-lg-4 wow fadeInUp">
-                                              <h2>Granola <span style="font-weight:bold">Tradicional</span></h2>
+                                              <h2>Granola <span style="font-weight:bold;">Tradicional</span></h2>
                                               <h4 style="font-weight:300">Miel de abeja</h4>
                                               <h5 >$89.00 MXN</h5>
                                               <h5 class="p-b-2">360g</h5>
 
                                               <div class="hr"></div>
+                                              <div class="p-t-1">
+                                                <ul class="collapsible " data-collapsible="accordion">
+                                                  <li class="active">
 
-                                              <div class="panel-group p-t-2 wow fadeInUp" id="tradicional-accordion" role="tablist" aria-multiselectable="true">
-                                                <div class="panel panel-default">
-                                                  <div class="panel-heading" role="tab" id="tradicional-descripcion">
-                                                    <h4 class="panel-title">
-                                                      <a role="button" data-toggle="collapse" data-parent="#tradicional-accordion" href="#t-d-t" aria-expanded="true" aria-controls="collapseOne">
-                                                        Descripción
-                                                      </a>
-                                                    </h4>
-                                                  </div>
-                                                  <div id="t-d-t" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="tradicional-descripcion">
-                                                    <div class="panel-body">
-                                                      Ésta granola es especial para personas que buscan tener un estilo de vida activo y saludable, ya que contiene 8 aminoácidos esenciales que te ayudarán a realizar todas tus tareas día con día.
+                                                    <div class="collapsible-header active">
+                                                      <span class="fa fa-info-circle fa-1x" aria-hidden="true"></span> Descripción
                                                     </div>
-                                                  </div>
-                                                </div>
-                                                <div class="panel panel-default p-t-1 wow fadeInUp">
-                                                  <div class="panel-heading" role="tab" id="tradicional-ingredientes">
-                                                    <h4 class="panel-title">
-                                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#tradicional-accordion" href="#t-i-t" aria-expanded="false" aria-controls="collapseTwo">
-                                                        Ingredientes
-                                                      </a>
-                                                    </h4>
-                                                  </div>
-                                                  <div id="t-i-t" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tradicional-ingredientes">
-                                                    <div class="panel-body">
-                                                      Avena, Miel de abeja, Almendras, Cacahuates, Nueces, Coco rallado, Pepitas de calabaza, Pepitas de girasol, Uva pasas, Arándanos, Ciruela pasas, Aceite de coco, amaranto, linaza y Extracto de vainilla.
+                                                    <div class="collapsible-body">
+                                                      <p> Ésta granola es especial para personas que buscan tener un estilo de vida activo y saludable, ya que contiene 8 aminoácidos esenciales que te ayudarán a realizar todas tus tareas día con día.
+                                                      </p>
                                                     </div>
-                                                  </div>
-                                                </div>
-                                                <div class="panel panel-default p-t-1 wow fadeInUp">
-                                                  <div class="panel-heading" role="tab" id="tradicional-precios">
-                                                    <h4 class="panel-title">
-                                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#tradicional-accordion" href="#t-p-t" aria-expanded="false" aria-controls="collapseThree">
-                                                        Precio especial a mayoreo
-                                                      </a>
-                                                    </h4>
-                                                  </div>
-                                                  <div id="t-p-t" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tradicional-precios">
-                                                    <div class="panel-body">
-                                                      <table class="table table-striped table-hover">
-                                                        <thead>
-                                                          <tr>
-                                                            <th>Cantidad</th>
-                                                            <th>Precio</th>
-                                                            <th>Ahorros</th>
-                                                          </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                          <tr>
-                                                            <td scope="row">1-4</dh>
-                                                            <td>$89 MXN</td>
-                                                            <td align="center"></td>
-                                                          </tr>
-                                                          <tr>
-                                                            <td scope="row">5-8</td>
-                                                            <td>$82 MXN</td>
-                                                            <td>$7 MXN</td>
-                                                          </tr>
-                                                          <tr>
-                                                            <td scope="row">9-15</td>
-                                                            <td>$75 MXN</td>
-                                                            <td>$14 MXN</td>
-                                                          </tr>
-                                                          <tr>
-                                                            <td scope="row">16+</td>
-                                                            <td>$70 MXN</td>
-                                                            <td>$19 MXN</td>
-                                                          </tr>
-                                                        </tbody>
-                                                      </table>
+                                                  </li>
+                                                  <li>
+                                                    <div class="collapsible-header">
+                                                      <span class="fa fa-cutlery fa-1x" aria-hidden="true"></span> Ingredientes
+
                                                     </div>
-                                                  </div>
-                                                </div>
+                                                    <div class="collapsible-body">
+                                                      <p>Avena, Miel de abeja, Almendras, Cacahuates, Nueces, Coco rallado, Pepitas de calabaza, Pepitas de girasol, Uva pasas, Arándanos, Ciruela pasas, Aceite de coco, amaranto, linaza y Extracto de vainilla.
+                                                      </p>
+                                                    </div>
+                                                  </li>
+                                                  <li>
+                                                    <div class="collapsible-header">
+                                                      <span class="fa  fa-fire fa-1x" aria-hidden="true"></span> Precio especial a mayoreo
+
+                                                    </div>
+                                                    <div class="collapsible-body">
+
+                                                        <table class="table table-striped table-hover">
+                                                          <thead>
+                                                            <tr>
+                                                              <th>Cantidad</th>
+                                                              <th>Precio</th>
+                                                              <th>Ahorros</th>
+                                                            </tr>
+                                                          </thead>
+                                                          <tbody>
+                                                            <tr>
+                                                              <td scope="row">1-4</dh>
+                                                              <td>$89 MXN</td>
+                                                              <td align="center"></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td scope="row">5-8</td>
+                                                              <td>$82 MXN</td>
+                                                              <td>$7 MXN</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td scope="row">9-15</td>
+                                                              <td>$75 MXN</td>
+                                                              <td>$14 MXN</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td scope="row">16+</td>
+                                                              <td>$70 MXN</td>
+                                                              <td>$19 MXN</td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+
+                                                    </div>
+                                                  </li>
+                                                </ul>
                                               </div>
 
                                             </div>
@@ -596,52 +586,41 @@
 
                                             <!--Vegana info-->
                                             <div class="col-lg-4 ">
-                                              <h2>Granola <span style="font-weight:bold">Vegana</span></h2>
+                                              <h2>Granola <span style="font-weight:bold;">Vegana</span></h2>
                                               <h4 style="font-weight:300">Miel de agave</h4>
                                               <h5 >$89.00 MXN</h5>
                                               <h5 class="p-b-2">360g</h5>
 
                                               <div class="hr"></div>
 
-                                              <div class="panel-group p-t-2 " id="vegana-accordion" role="tablist" aria-multiselectable="true">
-                                                <div class="panel panel-default">
-                                                  <div class="panel-heading" role="tab" id="vegana-descripcion">
-                                                    <h4 class="panel-title">
-                                                      <a role="button" data-toggle="collapse" data-parent="#vegana-accordion" href="#v-d-t" aria-expanded="true" aria-controls="collapseOne">
-                                                        Descripción
-                                                      </a>
-                                                    </h4>
+                                              <ul class="collapsible" data-collapsible="accordion">
+                                                <li class="active">
+
+                                                  <div class="collapsible-header active">
+                                                    <span class="fa fa-info-circle fa-1x" aria-hidden="true"></span> Descripción
                                                   </div>
-                                                  <div id="v-d-t" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="vegana-descripcion">
-                                                    <div class="panel-body">
-                                                      Ésta granola es especial para personas que buscan tener un estilo de vida activo y saludable, ya que contiene 8 aminoácidos esenciales que te ayudarán a realizar todas tus tareas día con día.
-                                                    </div>
+                                                  <div class="collapsible-body">
+                                                    <p> La Granola Vegana, como esta lo indica es especial para personas que llevan una dieta Vegana, aparte se les recomienda ingerirla a personas que sufren de diabetes ya que está endulzada con Miel de Agave.
+                                                    </p>
                                                   </div>
-                                                </div>
-                                                <div class="panel panel-default p-t-1 ">
-                                                  <div class="panel-heading" role="tab" id="vegana-ingredientes">
-                                                    <h4 class="panel-title">
-                                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#vegana-accordion" href="#v-i-t" aria-expanded="false" aria-controls="collapseTwo">
-                                                        Ingredientes
-                                                      </a>
-                                                    </h4>
+                                                </li>
+                                                <li>
+                                                  <div class="collapsible-header">
+                                                    <span class="fa fa-cutlery fa-1x" aria-hidden="true"></span> Ingredientes
+
                                                   </div>
-                                                  <div id="v-i-t" class="panel-collapse collapse" role="tabpanel" aria-labelledby="vegana-ingredientes">
-                                                    <div class="panel-body">
-                                                      Avena, Miel de agave, Almendras, Cacahuates, Nueces, Coco rallado, Pepitas de calabaza, Pepitas de girasol, Uva pasas, Arándanos, Ciruela pasas, Aceite de coco, amaranto, linaza y Extracto de vainilla.
-                                                    </div>
+                                                  <div class="collapsible-body">
+                                                    <p>Avena, Miel de agave, Almendras, Cacahuates, Nueces, Coco rallado, Pepitas de calabaza, Pepitas de girasol, Uva pasas, Arándanos, Ciruela pasas, Aceite de coco, amaranto, linaza y Extracto de vainilla.
+                                                    </p>
                                                   </div>
-                                                </div>
-                                                <div class="panel panel-default p-t-1 ">
-                                                  <div class="panel-heading" role="tab" id="vegana-precios">
-                                                    <h4 class="panel-title">
-                                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#vegana-accordion" href="#v-p-t" aria-expanded="false" aria-controls="collapseThree">
-                                                        Precio especial a mayoreo
-                                                      </a>
-                                                    </h4>
+                                                </li>
+                                                <li>
+                                                  <div class="collapsible-header">
+                                                    <span class="fa  fa-fire fa-1x" aria-hidden="true"></span> Precio especial a mayoreo
+
                                                   </div>
-                                                  <div id="v-p-t" class="panel-collapse collapse" role="tabpanel" aria-labelledby="vegana-precios">
-                                                    <div class="panel-body">
+                                                  <div class="collapsible-body">
+
                                                       <table class="table table-striped table-hover">
                                                         <thead>
                                                           <tr>
@@ -673,10 +652,12 @@
                                                           </tr>
                                                         </tbody>
                                                       </table>
-                                                    </div>
+
                                                   </div>
-                                                </div>
-                                              </div>
+                                                </li>
+                                              </ul>
+
+
 
                                             </div>
                                             <!--/.Vegana info-->
@@ -699,6 +680,7 @@
 
         </section>
         <!-- /.Section Productos-->
+
 
         <!--Section galeria-->
         <section id="galeria" class="galeria-bg">
